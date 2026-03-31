@@ -173,5 +173,13 @@ git push -u origin main
 If you use this code, please cite:
 
 ```bibtex
-@article{saleem2024class, title={Class-specific data augmentation for plant stress classification}, author={Saleem, Nasla and Balu, Aditya and Jubery, Talukder Zaki and Singh, Arti and Singh, Asheesh K and Sarkar, Soumik and Ganapathysubramanian, Baskar}, journal={The Plant Phenome Journal}, volume={7}, number={1}, pages={e20112}, year={2024}, publisher={Wiley Online Library}
+@article{saleem2024class,
+  title={Class-specific data augmentation for plant stress classification},
+  author={Saleem, Nasla and Balu, Aditya and Jubery, Talukder Zaki and Singh, Arti and Singh, Asheesh K and Sarkar, Soumik and Ganapathysubramanian, Baskar},
+  journal={The Plant Phenome Journal},
+  volume={7},
+  number={1},
+  pages={e20112},
+  year={2024},
+  publisher={Wiley Online Library}
 }

@@ -1,0 +1,49 @@
+data:
+  train_dir: data/train
+  val_dir: data/val
+
+model:
+  num_classes: 9
+  checkpoint_path: baseline.pth
+
+training:
+  epochs: 5
+  max_lr: 0.001
+  optimizer_lr: 0.0003
+  weight_decay: 0.0002
+  batch_size: 256
+  num_workers: 8
+  train_split: 0.85
+
+ga:
+  num_generations: 3
+  num_parents_mating: 40
+  sol_per_pop: 100
+  keep_elitism: 30
+  init_range_low: 0.0
+  init_range_high: 1.0
+  parent_selection_type: sss
+  crossover_type: single_point
+  mutation_type: random
+  mutation_percent_genes: 5
+  random_mutation_min_val: 0.0
+  random_mutation_max_val: 1.0
+  parallel_workers: 4
+
+augmentation:
+  transforms:
+    - auto_contrast
+    - invert
+    - equalize
+    - solarize
+    - posterize
+    - contrast
+    - color
+    - brightness
+    - sharpness
+    - shear_x
+    - shear_y
+    - translate_x
+    - translate_y
+    - rotate
+    - cutout

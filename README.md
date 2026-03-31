@@ -1,11 +1,12 @@
 # Class-specific Data Augmentation for Plant Stress Classification
 
-Code for the paper:
+Code for:
 
 **Class-specific Data Augmentation for Plant Stress Classification**  
+*The Plant Phenome Journal (2024)*  
 https://acsess.onlinelibrary.wiley.com/doi/10.1002/ppj2.20112
 
-This repository implements class-specific augmentation policies optimized via genetic algorithms for plant stress image classification. It searches for a different augmentation policy for each class instead of applying one shared augmentation pipeline to the whole dataset. A genetic algorithm optimizes class-wise augmentation probabilities, and a ResNet-50 classifier is used to evaluate each policy.
+This repository implements class-specific augmentation policies optimized via genetic algorithms for plant stress image classification.
 
 ## Repository structure
 
